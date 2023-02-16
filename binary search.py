@@ -12,7 +12,7 @@ def binarysearch(A,T):
 	return 'unsucessfull'
 
 def main():
-	sequence=range(0,100)
+	sequence=range(0,100,2)
 	binarysearch(sequence,50)
 
 if __name__ == '__main__':
