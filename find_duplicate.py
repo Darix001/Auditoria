@@ -1,12 +1,13 @@
-import itertools, collections
+#Find the duplicated items on a sequence
+
 def main(lista):
 	vistos = set()
 	dups = []
-	for x in a:
-    		if x in seen:
+	for item in lista:
+    		if item in vistos:
         		dups.append(x)
 		else:
-			seen.add(x)
+			vistos.add(x)
         		
 
 if __name__ == '__main__':
